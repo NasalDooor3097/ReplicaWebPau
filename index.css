@@ -1,0 +1,79 @@
+body
+{
+    font-family: arial, helvetica;
+    background:ghostwhite;
+    font-family: "Montserrat", "sans-serif";
+}
+
+nav
+{
+    background-color: beige;
+}
+
+.navegacion
+{
+    padding-left: 30%;
+}
+
+
+a{
+    color: black;
+    text-decoration: ;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li ul.dropmenu li
+{
+    display: block;
+}
+ul li ul.dropmenu
+{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+
+}
+
+
+ul li:hover ul.dropmenu{
+    display: block;
+}
+
+
+
+main
+{
+    width: 100%;
+    min-height: 600px;
+}
+iframe
+{
+    width: 100%;
+    min-height: 2000px;
+
+}
+div
+{
+    background-color: brown;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+}
+
