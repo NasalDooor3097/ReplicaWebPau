@@ -1,0 +1,142 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    background-color:beige;
+}
+
+i
+{
+    background-color: white;
+}
+
+nav
+{
+    display: flex;
+    padding-left: 10%;
+    background-color: white;
+}
+
+a{
+    color: black;
+    text-decoration:none;
+    background-color: white;
+}
+
+ul{
+    list-style: none;
+    background-color: white;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    background-color: white;
+}
+
+ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+}
+
+
+.img-baso-negro
+{
+    width: 100%;
+}
+
+#first
+{
+    /*border: 4px solid black;*/
+    height: 500px;
+}
+
+#container-1
+{
+    position: relative;
+    float: left;
+    width: 30%;
+    height:auto;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+#container-2
+{
+    position: relative;
+    float: right;
+    width: 30%;
+    height: auto;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+#Btnlogin
+{
+    background-color: white;
+    align-items: center;
+    justify-items: center;
+    width: 150px;
+    height: 50px;
+}
+
+#Btnlogin, #text-login
+{
+    background-color: white;
+}
+
+#Btnlogin:hover
+{
+    cursor: pointer;
+}
+
+#container-center
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+#second
+{
+    width: 75%;
+    position: relative;
+    /*border: 4px solid black;*/
+    display: flex;
+    
+}
+
+#second-1-container
+{
+    position: relative;
+    height: auto;
+    width: 50%;
+    float: left;
+    /*border:  2px solid black;*/
+}
+
+#second-2-container
+{
+    left: 9%;
+    position: relative;
+    width: 40%;
+    float: right;
+}
+
+#imgte
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+
+
+
+
