@@ -1,0 +1,292 @@
+.container{
+position: relative;
+display: flex;
+background-color: #efe8e8;
+padding: 1px;
+padding-bottom: 30px;
+    max-height: 800px; 
+  
+}
+.fondo{
+width: 100%;
+max-height: 800px; 
+}
+.imagen{
+
+width: 2900px;
+ 
+}
+
+
+
+.text-dentro{
+    position: absolute; /* Posiciona el texto de forma absoluta dentro del contenedor */
+    top: 50%; /* Centra el texto verticalmente */
+    left: 50%; /* Centra el texto horizontalmente */
+    transform: translate(-170%, -110%); /* Ajusta la posición para que esté centrado */
+    color: white; 
+    font-size: 32px;
+    width: 430px;
+    text-align: left;
+}
+
+.card {
+padding: 70px;
+
+}
+
+
+.flecha {
+width: 50px;
+
+
+}
+.flecha-boton{
+margin-left: 20px;
+
+    width: 40px;
+}
+.imagen-peque{
+
+
+    width: 100%;
+}
+.imagen-pequeña{
+  
+    
+    width:7x ;
+    height: auto;
+}
+hr{
+
+
+background-color:black ;
+height: 0.6%;
+}
+.boton-blanco {
+    display: inline-flex;
+    align-items: center; 
+    padding: 5px 8px; 
+    background-color: white;
+    color: black;
+border-radius: 4px;
+    text-decoration: none; /* Elimina el subrayado */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 150px;
+    transition: background-color 0.3s, color 0.3s; /* Transición para los efectos hover */
+    
+}
+
+.boton-blanco:hover {
+    background-color: black; /* Cambia el fondo a negro en hover */
+    color: white; /* Cambia el color del texto a blanco en hover */
+}
+
+
+.text-button{
+
+    padding: 150px;
+
+    
+}
+.text-button h1{
+
+font-size: 48px;
+    
+}
+.text-button hr{
+width: 95%;
+height: 3px;
+    margin-right: 100px;
+}
+
+.container-video{
+display: flex;
+min-height: 700px;
+padding: 120px;
+padding-right: 1px;
+}
+
+.video{
+
+    width: 1000px;
+    height: 100%;
+    margin-bottom: 50px;
+}
+.container-3{
+max-height: 1000px;
+background-color: rgba(176,214,160,255);
+    display: flex;
+  
+}
+
+.text-button-caja-left{
+    margin-top: 80px;
+justify-content: center;
+display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 300px; 
+    max-height: 800px;
+}
+.text-caja-left{
+    max-height: 800px;
+    height: 300px; 
+    padding: 20px 430px;
+
+}
+
+
+.inline-block{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-right{
+    display: flex;
+}
+.flex-right i {
+    margin: 0 5px; /* Espaciado horizontal entre los íconos */
+}
+
+.flex-right h5 {
+    margin: 0 5px; /* Espaciado horizontal entre el número y las flechas */
+}
+.img-3{
+max-height: 650px;
+
+    width: 1200px;
+}
+.color-w{
+
+    color: white;
+}
+.adios-border{
+     border: none; 
+    height: 3px;
+    background-color: white;
+}
+.boton-2 {
+    margin-top: 17px;
+    display: inline-flex;
+    align-items: center; 
+    border: solid 1px;
+    padding: 6px 15px; 
+    background-color: transparent;
+    color: black;
+    text-decoration: none; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 150px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-2:hover {
+    background-color: black; 
+    color: white; 
+}
+.container-4{
+
+
+
+    margin: 130px 570px;
+}
+.container-img{
+gap: 20px;
+display: flex;
+flex-direction: column;
+}
+.img-insta{
+margin-right: 20.2px;
+    width: 21.1%;
+   max-height: auto;
+}
+/* footer */
+.color-bg{
+padding: 90px 730px;
+    background-color: rgba(244,127,106,255);
+    display: flex;
+    justify-content: center;  /* Centrar horizontalmente */
+    align-items: center;
+    flex-direction: column;
+}
+.text-center{
+
+    text-align: center;
+}
+.button-negro{
+margin-left: 6px;
+margin-top: 30px;
+    background-color: black;
+    color: #efe8e8;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 2px;
+    height: 29px;
+}
+.button-negro:hover {
+    background-color: rgb(255, 252, 252); 
+    color: rgb(0, 0, 0); 
+}
+.input-footer{
+margin-top: 30px;
+height: 27px;
+    width: 300px;
+    font-size: 16px;
+    padding: 1px 9px;
+    border-radius: 4px;
+}
+.color-bg-black{
+
+padding: 20px 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;  /* Centrar horizontalmente */
+    align-items: center;
+  
+
+}
+.left{
+padding: 30px;
+text-align: left;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.center{
+ margin-top: 140px;
+   width: 30%;
+}
+.right{
+  
+
+   width: 30%;
+}
+.acomodo{
+    display: flex;
+}
+.columna-1{
+
+width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.columna-2{
+width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+.padding-right{
+
+    padding-right: 300px;
+}
+.extra{
+
+    display:flex ;
+}

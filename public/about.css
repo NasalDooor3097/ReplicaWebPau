@@ -1,0 +1,148 @@
+
+
+
+.container-p{
+
+    position: relative;
+}
+.text-p{
+
+    position: absolute;
+    color: #efe8e8;
+  transform: translate(50%, -440%);  
+   
+}
+
+.dos-cajas{
+
+
+background-color: rgba(244,237,232,255);;
+}
+.margin{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 130px;
+gap: 90px;
+}
+.container{
+margin-top: 150px;
+margin-bottom: 150px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.caja-text{
+
+    width: 600px;
+}
+.img-car{
+width: 470px;
+
+
+}
+.pie{
+    display: flex;
+}
+
+/* footer */
+
+.color-bg{
+padding: 90px 730px;
+    background-color:rgba(143,191,179,255);
+    display: flex;
+    justify-content: center;  /* Centrar horizontalmente */
+    align-items: center;
+    flex-direction: column;
+}
+.text-center{
+
+    text-align: center;
+}
+.button-negro{
+margin-left: 6px;
+margin-top: 30px;
+    background-color: black;
+    color: #efe8e8;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 2px;
+    height: 29px;
+}
+.button-negro:hover {
+    background-color: rgb(255, 252, 252); 
+    color: rgb(0, 0, 0); 
+}
+.input-footer{
+margin-top: 30px;
+height: 27px;
+    width: 300px;
+    font-size: 16px;
+    padding: 1px 9px;
+    border-radius: 4px;
+}
+.color-bg-black{
+
+padding: 20px 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;  /* Centrar horizontalmente */
+    align-items: center;
+  
+
+}
+.left{
+padding: 30px;
+text-align: left;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.center{
+ margin-top: 140px;
+   width: 30%;
+}
+.right{
+  
+
+   width: 30%;
+}
+.acomodo{
+    display: flex;
+}
+.columna-1{
+
+width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.columna-2{
+width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+.padding-right{
+
+    padding-right: 300px;
+}
+.extra{
+
+    display:flex ;
+}
+.caja-b{
+margin-left: 270px;
+margin-bottom: 100px;
+    width: 38%;
+}
+.hr-edit{
+margin-right: 340px;
+width:60%;
+height: 4px;
+background-color: black;
+}
+.blank{
+
+width: 40%;
+}

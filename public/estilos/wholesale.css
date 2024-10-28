@@ -135,8 +135,84 @@ ul li a {
     position: relative;
 }
 
+.principal-container
+{
+    margin-left: 10%;
+    margin-top: 100px;
+    position: relative;
+    width: 80%;
+    height: 800px;
+
+    justify-content: center;
+    flex-direction: row;
+}
+
+.conaiter-line
+{
+    display: inline-block;
+    position: relative;
+    width: 26%;
+    height: auto;
+    margin-inline: 3%;
+    float: right;
+}
+
+.imgline
+{
+    width: 100%;
+    height: 300px;
+}
+
+.last-container
+{
+    width: 100%;
+    position: relative;
+    
+}
+
+#last-1
+{
+    margin-top: 100px;
+    width: 45%;
+    float: left;
+
+}
+
+#last-2
+{
+    margin-top: 100px;
+    width: 45%;
+    float: right;
+
+}
+
+.input-container
+{
+    display: inline-block;
+
+}
+
+#phone-tel
+{
+    padding-top: 20px;
+    width: 100%; 
+}
+
+#mensaje
+{
+    width: 100%;
+    
+}
+
+#mesagge
+{
+    width: 95%;
+}
 
 
-
+input
+{
+    border: none;
+}
 
 
