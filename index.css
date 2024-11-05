@@ -54,6 +54,8 @@ ul li ul.dropmenu
 
 ul li:hover ul.dropmenu{
     display: block;
+    background-color: rgb(209, 207, 207);
+    border-radius: 10px;
 }
 
 
@@ -77,3 +79,7 @@ div
     display: flex;
 }
 
+.Link-menu:hover
+{
+    background-color: white;
+}

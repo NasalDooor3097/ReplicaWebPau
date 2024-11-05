@@ -1,0 +1,66 @@
+body
+{
+    font-family: arial, helvetica;
+    background:ghostwhite;
+    font-family: "Montserrat", "sans-serif";
+}
+
+#title  
+{
+    display: block;
+    padding: 30px;
+    font-size: 35px;
+    text-align: center;
+    color:black;
+}
+
+#img
+{
+    width: 650px;
+    max-height: 450px;
+    border-radius: 20px;
+}
+
+#img-container
+{
+    text-align: center;
+}
+
+
+.formulario
+{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    
+}
+
+
+.formulario input
+{
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario .ingresa
+{
+    color: aliceblue;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario .contraseñaolvidada
+{
+    color: aliceblue;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button, label, input
+{
+    font-size: 25px;
+}
