@@ -30,21 +30,70 @@
             <br>
             <br>
 
+            <label for="name">Nombre</label>
+            <input type="name" id="name" name="name">
+
+            <br>
+            <br>
+
             <label for="contraseña">ingresa tu constraseña</label>
             <input type="password" id="contraseña" name="contraseña">
 
             <br>
             <br>
 
+            
+
+            
+            <label for="tel">Telefono</label>
+            <input type="tel" id="tel" name="tel">
+
+
+
+            <br>
+            <br>
+
+           
+            <label for="dic">Direccion</label>
+            <input type="text" id="dic" name="dic">
+
+
+            <br>
+            <br>
+
+
+            <label for="gen">Genero</label>
+            <select name="gen" id="">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="no binario">No binario</option>
+                <option value="No">Prefiero no decirlo</option>
+            </select>
+            
+
+
+
+            <br>
+            <br>
+
+            
+           
+            <label for="commit">Comentarios</label>
+            <textarea name="commit"  id="commit"></textarea>
+
+
+                <br>
+                <br>
+
             <button class="ingresa" onclick="validar_datos_del_login()" type="button">Ingresar</button>
+            <button class="ingresa"  type="reset">Borrar</button>
 
             <br>
             <br>
-
-            <label for="recuperar_contraseña">¿Olvidaste tu contraseña?</label>
-            <button class="contraseñaolvidada" type="button" id="recuperar_contraseña" name="recuperar_contraseña">Recuperarla</button>
-
         </form>
     </main>
+
+    <script src="/public/scripts/login.js"></script>
+
 </body>
 </html>
