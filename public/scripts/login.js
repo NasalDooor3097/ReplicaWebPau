@@ -21,6 +21,21 @@ function validar(event) {
     const mayuscula = /[A-Z]/;
     const minuscula = /[a-z]/;
     const numero = /\d/;
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if(regex.test(correo))
+    {
+        
+    }
+    else{
+        Swal.fire({
+            icon: 'error',
+            title: 'correo invalido',
+            text: 'El correo debe de tener una @'
+        });
+        return false; 
+    }
+    
     
 
 
