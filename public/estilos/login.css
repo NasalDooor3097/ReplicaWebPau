@@ -3,6 +3,7 @@ body
     font-family: arial, helvetica;
     background:ghostwhite;
     font-family: "Montserrat", "sans-serif";
+    max-height: 1000px;
 }
 
 #title  
@@ -63,4 +64,12 @@ body
 form button, label, input
 {
     font-size: 25px;
+}
+
+label{
+
+    margin-right: 10px;
+}
+input{
+    width: 200px;
 }

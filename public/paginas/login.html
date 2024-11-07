@@ -1,99 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Iniciar sesión</title>
     <link rel="stylesheet" href="../estilos/login.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1 id="title">Iniciar secion </h1>
+    <h1 id="title">Iniciar sesión</h1>
     <main>
-        <p id="img-container"><img id="img" src="../img/marinela.png" alt=""></p>
-        <form class="formulario">
-
-            <br>
-            <br>
-
-            <label>Ingrese su informacion</label>
-
-            <br>
-            <br>
-
-            <label for="correo">Ingresa tu correo</label>
-            <input type="email" id="correo" name="correo">
-
-            <br>
-            <br>
-
-            <label for="name">Nombre</label>
-            <input type="name" id="name" name="name">
-
-            <br>
-            <br>
-
-            <label for="contraseña">ingresa tu constraseña</label>
-            <input type="password" id="contraseña" name="contraseña">
-
-            <br>
-            <br>
-
-            
-
-            
-            <label for="tel">Telefono</label>
-            <input type="tel" id="tel" name="tel">
 
 
 
-            <br>
-            <br>
+        <p id="img-container">
+            <img id="img" src="../img/marinela.png" alt="Imagen de marinela">
+        </p>
 
-           
-            <label for="dic">Direccion</label>
-            <input type="text" id="dic" name="dic">
+        <form class="formulario" id="formulario" onsubmit="return validar()">
+            <div class="container-form">
+                <label style="font-size: 2rem; font-weight: 700; margin-bottom: 26px;">Ingrese su información</label>
 
+             
+                <div>
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo" required>
+                </div>
 
-            <br>
-            <br>
-
-
-            <label for="gen">Genero</label>
-            <select name="gen" id="">
-                <option value="hombre">Hombre</option>
-                <option value="mujer">Mujer</option>
-                <option value="no binario">No binario</option>
-                <option value="No">Prefiero no decirlo</option>
-            </select>
-            
-
+       
+                <div>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+                </div>
 
 
-            <br>
-            <br>
+                <div>
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" id="contraseña" name="contraseña" placeholder="Ingresa tu contraseña" required>
+                </div>
+
+         
+                <div>
+                    <label for="tel">Teléfono:</label>
+                    <input type="tel" id="tel" name="tel" placeholder="Ingresa tu telefono" required>
+                </div>
+
+              
+                <div>
+                    <label for="dic">Dirección:</label>
+                    <input type="text" id="dic" name="dic" placeholder="Ingresa tu direccion" required>
+                </div>
 
             
-           
-            <label for="commit">Comentarios</label>
-            <textarea name="commit"  id="commit"></textarea>
+                <div>
+                    <label for="gen">Género:</label>
+                    <select name="gen" id="gen" required>
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                        <option value="no binario">No binario</option>
+                        <option value="No">Prefiero no decirlo</option>
+                    </select>
+                </div>
 
+          
+                <div>
+                    <label for="commit">Comentarios:</label>
+                    <textarea name="commit" id="commit" placeholder="Ingresa un comentario..." required></textarea>
+                </div>
 
-                <br>
-                <br>
-
-            <button class="ingresa" onclick="validar_datos_del_login()" type="button">Ingresar</button>
-            <button class="ingresa"  type="reset">Borrar</button>
-
-            <br>
-            <br>
+                <div>
+                    <button class="ingresa" onclick="validar(event)" type="submit">Ingresar</button>
+                    <button class="ingresa" type="reset">Borrar</button>
+                </div>
+            </div>
         </form>
     </main>
 
-    <script src="/public/scripts/login.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+
+    <script src="/public/scripts/login.js"></script>
 </body>
+
 </html>
